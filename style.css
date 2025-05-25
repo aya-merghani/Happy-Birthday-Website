@@ -28,6 +28,7 @@ body {
     }
     .card img {
         margin-bottom: 2px;
+        width: 100%;
     }
 }
 
@@ -42,7 +43,9 @@ body {
     .card {
         gap: 2px;
     }
-    
+    .balloons {
+        margin-top: 0px;
+        }
 }
 
 .confetti-button{
@@ -57,5 +60,5 @@ color: mistyrose;
 
 .balloons {
     width: 100%;
-    height: 20vh;
+    height: 100%;
 }
