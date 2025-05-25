@@ -2,9 +2,13 @@ body {
     background-color: mistyrose;
     color: brown;
     display: grid;
-    font-family: fantasy, sans-serif;
+    font-family: 'Lucida Sans', fantasy, sans-serif;
     place-items: center;
     height: 100vh;
+}
+
+header{
+    margin-bottom: 3px;
 }
 .card img{
     width: 100%;
@@ -14,6 +18,7 @@ body {
 
 .card p {
     text-align: center;
+    margin-bottom: 4px;
 }
 @media (max-width: 600px) {
     .card {
@@ -27,7 +32,8 @@ body {
     .card img {
         max-width: 90vw;
         max-height: 40vh;
-    }.
+        margin-bottom: 2px;
+    }
 }
 
 .card {
@@ -37,11 +43,21 @@ body {
     justify-content: center;
     gap: 10px;
 }
+@media (max-width: 600px) {
+    .card {
+        gap: 2px;
+    }
+    
+}
 
 .confetti-button{
 border-radius: 20px;
 background-color: lightcoral;
-cursor: pointer
+cursor: pointer;
+padding: 20px;
+border-style: none; 
+box-shadow: 2px 3px white;
+color: mistyrose;
 }
 
 .balloons {
