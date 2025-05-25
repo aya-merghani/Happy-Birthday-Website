@@ -1,0 +1,44 @@
+body {
+    background-color: mistyrose;
+    color: brown;
+    display: grid;
+    font-family: fantasy;
+    place-items: center;
+    height: 100vh;
+}
+.card img{
+    width: 100%;
+    max-width: 50vw;
+    max-height: 50vh;
+}
+
+.card p {
+    text-align: center;
+}
+@media (max-width: 600px) {
+    body {
+        font-size: 1.2rem;
+    }
+    .card img {
+        max-width: 90vw;
+        max-height: 40vh;
+    }.
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.confetti-button{
+border-radius: 20px;
+background-color: lightcoral;
+cursor: pointer
+}
+.balloons {
+    width: 100%;
+    height: 20vh;
+}
