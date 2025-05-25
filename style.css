@@ -2,7 +2,7 @@ body {
     background-color: mistyrose;
     color: brown;
     display: grid;
-    font-family: fantasy;
+    font-family: fantasy, sans-serif;
     place-items: center;
     height: 100vh;
 }
